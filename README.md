@@ -1,7 +1,7 @@
 # Kwangflix
 넷플릭스 클론 앱 
 # 참고자료
-https://www.youtube.com/watch?v=KCgYDCKqato&t=717s
-https://k-elon.tistory.com/12
+https://www.youtube.com/watch?v=KCgYDCKqato&t=717s </br>
+https://k-elon.tistory.com/12 </br>
 https://tong94.tistory.com/26
 
