@@ -3,5 +3,6 @@
 # References
 https://www.youtube.com/watch?v=KCgYDCKqato&t=717s </br>
 https://k-elon.tistory.com/12 </br>
-https://tong94.tistory.com/26
+https://tong94.tistory.com/26 </br>
+https://tong94.tistory.com/24
 
