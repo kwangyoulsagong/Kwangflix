@@ -24,12 +24,18 @@ class MainTabBarViewController: UITabBarController {
         
         
         vc1.tabBarItem.image = UIImage(systemName: "house")// 텝바에 이미지 삽입
-        vc2.tabBarItem.image = UIImage(systemName: "upcomming")
-        vc3.tabBarItem.image = UIImage(systemName: "search")
-        vc4.tabBarItem.image = UIImage(systemName: "downloads")
-        //hello
+        vc2.tabBarItem.image = UIImage(systemName: "play.circle")
+        vc3.tabBarItem.image = UIImage(systemName: "magnifyingglass")
+        vc4.tabBarItem.image = UIImage(systemName: "arrow.down.to.line")
         
+        //제목을 붙여줌
+        vc1.title = "Home"
+        vc2.title = "Comming Soon"
+        vc3.title = "Top Searches"
+        vc4.title = "Downloads"
         
+        // 텝바 색 바꾸기
+        tabBar.tintColor = .label
         setViewControllers([vc1,vc2,vc3,vc4], animated: true)
         //네비게이션 컨트롤러를 스택을 활용해서 탭바를 클릭시 전환
     }
