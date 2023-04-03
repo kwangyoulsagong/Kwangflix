@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC758D8D29DB09D400F15FD5 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC758D8C29DB09D400F15FD5 /* HeroHeaderUIView.swift */; };
 		BC9803DA29D86EF300D20D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9803D929D86EF300D20D01 /* AppDelegate.swift */; };
 		BC9803DC29D86EF300D20D01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9803DB29D86EF300D20D01 /* SceneDelegate.swift */; };
 		BC9803DE29D86EF300D20D01 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9803DD29D86EF300D20D01 /* MainTabBarViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC758D8C29DB09D400F15FD5 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		BC9803D629D86EF300D20D01 /* Kwangflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kwangflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9803D929D86EF300D20D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC9803DB29D86EF300D20D01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				BCA0906929D99B3000B04B44 /* CollectionViewTableViewCell.swift */,
+				BC758D8C29DB09D400F15FD5 /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				BC9803F329D8728800D20D01 /* SearchViewController.swift in Sources */,
 				BC9803DE29D86EF300D20D01 /* MainTabBarViewController.swift in Sources */,
 				BCA0906A29D99B3000B04B44 /* CollectionViewTableViewCell.swift in Sources */,
+				BC758D8D29DB09D400F15FD5 /* HeroHeaderUIView.swift in Sources */,
 				BC9803F529D872BB00D20D01 /* DownloadsViewController.swift in Sources */,
 				BC9803DA29D86EF300D20D01 /* AppDelegate.swift in Sources */,
 				BC9803F129D8725900D20D01 /* UpcommingViewController.swift in Sources */,

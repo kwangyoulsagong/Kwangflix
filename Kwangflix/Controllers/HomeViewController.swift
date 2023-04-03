@@ -21,6 +21,10 @@ class HomeViewController: UIViewController {
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
         
+//        homeFeedTable.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))//헤더 만들어주기
+//
+        let headerView = HeroHeaderUIView(frame: CGRect (x: 0, y: 0, width: view.bounds.width, height: 450  ))
+        homeFeedTable.tableHeaderView = headerView//이미지 사이즈
     }
     override func viewDidLayoutSubviews() {//라이프 사이클  뷰컨틀롤러 뷰가 서브 뷰 레이아웃 하고 호출
         super.viewDidLayoutSubviews()
