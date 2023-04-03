@@ -1,6 +1,6 @@
 # Kwangflix
-넷플릭스 클론 앱 
-
+넷플릭스 클론 앱
+swift를 배우는중 입니다.
 # language 
 Swift 
 # tool
