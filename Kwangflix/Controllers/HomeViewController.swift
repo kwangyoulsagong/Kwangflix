@@ -23,9 +23,24 @@ class HomeViewController: UIViewController {
         
 //        homeFeedTable.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))//헤더 만들어주기
 //
+        configureNavBar()
+        
         let headerView = HeroHeaderUIView(frame: CGRect (x: 0, y: 0, width: view.bounds.width, height: 450  ))
         homeFeedTable.tableHeaderView = headerView//이미지 사이즈
     }
+    
+    private func configureNavBar(){
+        var image = UIImage(named: "Netflix_2015_N_logo.svg")//logo 추가
+        image=image?.withRenderingMode(.alwaysOriginal )//색을 오리지널 색
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
+        navigationItem.rightBarButtonItems = [
+            UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil),
+            UIBarButtonItem(image: UIImage(systemName: "play.rectangle"), style: .done, target: self, action: nil)
+        ]
+        
+        navigationController?.navigationBar.tintColor = .white // 색을 하얀색으로 바꾸기
+    }
+    
     override func viewDidLayoutSubviews() {//라이프 사이클  뷰컨틀롤러 뷰가 서브 뷰 레이아웃 하고 호출
         super.viewDidLayoutSubviews()
         homeFeedTable.frame = view.bounds // 뷰의 크기 이미 조정
